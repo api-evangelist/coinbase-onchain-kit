@@ -1,0 +1,126 @@
+aid: coinbase-onchain-kit
+url: https://raw.githubusercontent.com/api-evangelist/coinbase-onchain-kit/refs/heads/main/apis.yml
+name: Coinbase OnchainKit
+kind: company
+description: >-
+  Coinbase OnchainKit is a TypeScript React framework from Coinbase for building onchain
+  applications on Base and other EVM networks. It bundles ready-made React components
+  (wallets, identity, transactions, swap, checkout, fund, NFT), TypeScript utilities,
+  and integrations with Smart Wallet, Base Account, Frames, and Mini Apps. OnchainKit
+  is distributed as the @coinbase/onchainkit npm package along with companion CLIs
+  (create-onchain) and a MiniApp manifest generator. It is built on top of Wagmi,
+  Viem, and TailwindCSS and is the recommended client SDK for the Base ecosystem.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Onchain
+  - Web3
+  - React
+  - SDK
+  - Base
+  - Smart Wallet
+  - Frames
+  - Mini Apps
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: coinbase-onchain-kit:onchainkit-sdk
+    name: OnchainKit React SDK
+    description: >-
+      Core @coinbase/onchainkit npm package providing React components and TypeScript
+      utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap, Checkout,
+      Fund, NFT, Token, and Earn component families along with hooks and providers wired
+      to Wagmi and Viem.
+    humanURL: https://docs.base.org/onchainkit
+    baseURL: https://www.npmjs.com/package/@coinbase/onchainkit
+    tags:
+      - SDK
+      - React
+      - TypeScript
+      - Components
+    properties:
+      - type: Documentation
+        url: https://docs.base.org/onchainkit
+      - type: Repository
+        url: https://github.com/coinbase/onchainkit
+      - type: Package
+        url: https://www.npmjs.com/package/@coinbase/onchainkit
+  - aid: coinbase-onchain-kit:create-onchain-cli
+    name: create-onchain CLI
+    description: >-
+      Bootstrap CLI (`npm create onchain`) that scaffolds a new OnchainKit application
+      pre-wired with Wagmi, Viem, TailwindCSS, and Base. Generates starter projects for
+      web apps and Mini Apps.
+    humanURL: https://docs.base.org/onchainkit/getting-started
+    baseURL: https://www.npmjs.com/package/create-onchain
+    tags:
+      - CLI
+      - Scaffolding
+      - Bootstrap
+    properties:
+      - type: Documentation
+        url: https://docs.base.org/onchainkit/getting-started
+      - type: Repository
+        url: https://github.com/coinbase/onchainkit
+  - aid: coinbase-onchain-kit:miniapp-manifest
+    name: OnchainKit MiniApp Manifest Generator
+    description: >-
+      Utility that generates the Mini App manifest required to publish a Frames-based
+      Mini App to Farcaster and other Mini App hosts. Validates manifest fields and
+      handles signing.
+    humanURL: https://docs.base.org/mini-apps
+    baseURL: https://github.com/coinbase/onchainkit
+    tags:
+      - Mini Apps
+      - Manifest
+      - Frames
+    properties:
+      - type: Documentation
+        url: https://docs.base.org/mini-apps
+      - type: Repository
+        url: https://github.com/coinbase/onchainkit
+  - aid: coinbase-onchain-kit:smart-wallet
+    name: Coinbase Smart Wallet Integration
+    description: >-
+      OnchainKit components and connectors that expose Coinbase Smart Wallet — an
+      ERC-4337 smart contract wallet — for sign-in, paymaster-sponsored transactions,
+      passkeys, and session keys.
+    humanURL: https://docs.base.org/base-account
+    baseURL: https://www.smartwallet.dev
+    tags:
+      - Smart Wallet
+      - Account Abstraction
+      - ERC-4337
+      - Passkeys
+    properties:
+      - type: Documentation
+        url: https://docs.base.org/base-account
+      - type: Website
+        url: https://www.smartwallet.dev
+common:
+  - type: Website
+    url: https://www.base.org/builders/onchainkit
+  - type: Documentation
+    url: https://docs.base.org/onchainkit
+  - type: GitHub
+    url: https://github.com/coinbase/onchainkit
+  - type: GitHubOrganization
+    url: https://github.com/coinbase
+  - type: Package
+    url: https://www.npmjs.com/package/@coinbase/onchainkit
+  - type: Twitter
+    url: https://x.com/OnchainKit
+  - type: Discord
+    url: https://discord.gg/buildonbase
+  - type: License
+    url: https://github.com/coinbase/onchainkit/blob/main/LICENSE.md
+integrations:
+  - name: Base
+  - name: Wagmi
+  - name: Viem
+  - name: TailwindCSS
+  - name: Farcaster
+  - name: Coinbase Smart Wallet
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
