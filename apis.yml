@@ -114,6 +114,8 @@ common:
     url: https://discord.gg/buildonbase
   - type: License
     url: https://github.com/coinbase/onchainkit/blob/main/LICENSE.md
+  - type: LLMsTxt
+    url: https://docs.base.org/llms.txt
 integrations:
   - name: Base
   - name: Wagmi
