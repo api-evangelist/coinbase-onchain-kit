@@ -10,7 +10,7 @@ description: >-
   is distributed as the @coinbase/onchainkit npm package along with companion CLIs
   (create-onchain) and a MiniApp manifest generator. It is built on top of Wagmi,
   Viem, and TailwindCSS and is the recommended client SDK for the Base ecosystem.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Onchain
   - Web3
