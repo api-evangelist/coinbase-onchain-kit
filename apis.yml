@@ -114,7 +114,7 @@ common:
     url: https://discord.gg/buildonbase
   - type: License
     url: https://github.com/coinbase/onchainkit/blob/main/LICENSE.md
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.base.org/llms.txt
 integrations:
   - name: Base
