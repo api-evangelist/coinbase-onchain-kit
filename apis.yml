@@ -110,6 +110,10 @@ apis:
       - type: Website
         url: https://www.smartwallet.dev
 common:
+  - type: IssueTracker
+    url: https://github.com/coinbase/onchainkit/issues
+  - type: Releases
+    url: https://github.com/coinbase/onchainkit/releases
   - type: DomainSecurity
     url: security/coinbase-onchain-kit-domain-security.yml
   - type: Website
