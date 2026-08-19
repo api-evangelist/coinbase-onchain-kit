@@ -34,7 +34,7 @@ tags:
   - Mini Apps
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: coinbase-onchain-kit:onchainkit-sdk
     name: OnchainKit React SDK
