@@ -84,6 +84,10 @@ apis:
     baseURL: https://github.com/coinbase/onchainkit
     tags:
       - Mini Apps
+      - Manifests
+      - Frames
+    tags_raw:
+      - Mini Apps
       - Manifest
       - Frames
     properties:
