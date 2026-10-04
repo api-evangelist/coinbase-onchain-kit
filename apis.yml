@@ -12,14 +12,17 @@ description: >-
   Viem, and TailwindCSS and is the recommended client SDK for the Base ecosystem.
 deliveryModel:
   model: unknown
+  license_evidence:
+    not_product:
+    - coinbase/onchainkit
   open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: free
@@ -35,6 +38,10 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinbase-onchain-kit.png
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-24
+x-docs-hosting: vercel
 tags:
   - Onchain
   - Web3
