@@ -1,4 +1,4 @@
-# coinbase-onchain-kit
+# Coinbase OnchainKit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Coinbase OnchainKit — React components + APIs for onchain apps
+Coinbase OnchainKit is a TypeScript React framework from Coinbase for building onchain applications on Base and other EVM networks. It bundles ready-made React components (wallets, identity, transactions, swap, checkout, fund, NFT), TypeScript utilities, and integrations with Smart Wallet, Base Account, Frames, and Mini Apps. OnchainKit is distributed as the @coinbase/onchainkit npm package along with companion CLIs (create-onchain) and a MiniApp manifest generator. It is built on top of Wagmi, Viem, and TailwindCSS and is the recommended client SDK for the Base ecosystem.
+
+**Areas:** Onchain · Web3 · React · SDK · Base · Smart Wallet · Frames · Mini Apps
+
+## Coinbase OnchainKit on APIs.io
+
+Everything profiled for Coinbase OnchainKit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coinbase-onchain-kit/](https://apis.io/providers/coinbase-onchain-kit/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [OnchainKit React SDK](https://apis.io/apis/coinbase-onchain-kit/onchainkit-sdk/) — Core @coinbase/onchainkit npm package providing React components and TypeScript utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap,…
+- [create-onchain CLI](https://apis.io/apis/coinbase-onchain-kit/create-onchain-cli/) — Bootstrap CLI (`npm create onchain`) that scaffolds a new OnchainKit application pre-wired with Wagmi, Viem, TailwindCSS, and Base. Generates starter…
+- [OnchainKit MiniApp Manifest Generator](https://apis.io/apis/coinbase-onchain-kit/miniapp-manifest/) — Utility that generates the Mini App manifest required to publish a Frames-based Mini App to Farcaster and other Mini App hosts. Validates manifest fields…
+- [Coinbase Smart Wallet Integration](https://apis.io/apis/coinbase-onchain-kit/smart-wallet/) — OnchainKit components and connectors that expose Coinbase Smart Wallet — an ERC-4337 smart contract wallet — for sign-in, paymaster-sponsored transactions,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coinbase Onchain Kit Domain Security](https://apis.io/security/coinbase-onchain-kit/coinbase-onchain-kit-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Coinbase Onchain Kit Plans Pricing](https://apis.io/plans/coinbase-onchain-kit/coinbase-onchain-kit-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Coinbase Onchain Kit Rate Limits](https://apis.io/rate-limits/coinbase-onchain-kit/coinbase-onchain-kit-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Coinbase Onchain Kit Finops](https://apis.io/finops/coinbase-onchain-kit/coinbase-onchain-kit-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.base.org/builders/onchainkit)
+- [Documentation](https://docs.base.org/onchainkit)
+- [GitHub](https://github.com/coinbase)
+
+## API Evangelist rating
+
+**Kin Score 12.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coinbase-onchain-kit/](https://apis.io/providers/coinbase-onchain-kit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Coinbase OnchainKit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coinbase-onchain-kit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
